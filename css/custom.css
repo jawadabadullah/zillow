@@ -103,3 +103,50 @@
 .right-addon input {
     padding-right: 30px;
 }
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    }
+
+  .dropdown-content a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .menu-links{
+    padding: 1em;
+    text-align: initial;
+  }
+  .links{
+      display: flex;
+      padding: 0 1.5em;
+  }
+  .dropdown-content a:hover {background-color: #ddd;}
+
+  .dropdown:hover .dropdown-content {
+      display: block;
+      width: 600px;
+}
+.headings{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+  /* .dropdown:hover .dropbtn {background-color: white;} */
